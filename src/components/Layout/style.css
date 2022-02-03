@@ -1,0 +1,36 @@
+.container{
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: grid;
+    /* grid-template-columns: repeat(12,1fr);
+    grid-template-areas:  */
+                  /* "m m h h h h h h h h h h"
+                  "m m . c c c c c c c c ."
+                  "m m . c c c c c c c c ."
+                  "m m . c c c c c c c c ."
+                  "m m f f f f f f f f f f"
+    ; */
+}
+.element1{
+  background: #fdc02e;
+  grid-area: h;
+}
+.element2{
+    grid-area: m;
+    background: #009688;
+}
+.element3{
+    grid-area: c;
+    background:#929497;
+}
+.element4{
+    grid-area: f;
+    background: #ffeb3b;
+}
+.element5{
+    background: #b8f1ec;
+}
+.element6{
+    background: #00ffff;
+}
